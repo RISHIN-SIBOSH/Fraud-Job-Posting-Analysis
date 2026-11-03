@@ -1,0 +1,58 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Medium.ttf"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-SemiBold.ttf"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Poppins"
+url = "app/static/fonts/Poppins-Bold.ttf"
+weight = 700
+
+[theme]
+base = "dark"
+primaryColor = "#7864F8"
+backgroundColor = "#0D0E17"
+secondaryBackgroundColor = "#191A28"
+textColor = "#F4F4FB"
+borderColor = "#2B2C3F"
+font = "Poppins"
+headingFont = "Poppins"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "28px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 600, 600, 600, 500]
+baseRadius = "large"
+buttonRadius = "medium"
+showWidgetBorder = true
+showSidebarBorder = true
+blueColor = "#7864F8"
+violetColor = "#7864F8"
+redColor = "#F13B8B"
+redBackgroundColor = "#351B2B"
+redTextColor = "#FF9ABF"
+greenColor = "#94DE51"
+greenBackgroundColor = "#1A2C1B"
+greenTextColor = "#B5ED82"
+yellowColor = "#F5C34D"
+yellowBackgroundColor = "#352D19"
+yellowTextColor = "#FFE28D"
+chartCategoricalColors = ["#7864F8", "#F13B8B", "#94DE51", "#F5C34D", "#52D1C5", "#6285FF"]
+
+[theme.sidebar]
+backgroundColor = "#151622"
+secondaryBackgroundColor = "#1B1C2B"
+textColor = "#F4F4FB"
+borderColor = "#292A3B"

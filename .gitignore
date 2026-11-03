@@ -1,0 +1,12 @@
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Include the dataset needed by the application and its blank template.
+data/*.csv
+!data/fake_job_postings.csv
+!data/validation_template.csv
+
+# Local secrets
+.streamlit/secrets.toml
